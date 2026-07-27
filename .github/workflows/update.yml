@@ -1,0 +1,109 @@
+name: Combined IPTV Auto Update
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */6 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download Playlists
+        run: |
+          curl -L https://raw.githubusercontent.com/Harleythetech/IPHTV/refs/heads/main/ph.m3u -o harley.m3u
+          curl -L https://iptv-org.github.io/iptv/countries/ph.m3u -o iptvorg.m3u
+
+      - name: Merge Playlists
+        run: |
+          python3 << 'EOF'
+          import re
+
+          files=["harley.m3u","iptvorg.m3u"]
+          channels=[]
+          urls=set()
+          names=set()
+
+          def score(extinf,url):
+              s=0
+              if url.lower().startswith("https://"):
+                  s+=200
+              if "1080" in extinf.lower():
+                  s+=100
+              elif "720" in extinf.lower():
+                  s+=60
+              elif "480" in extinf.lower():
+                  s+=40
+              if "hevc" in extinf.lower():
+                  s+=20
+              return s
+
+          temp=[]
+
+          for f in files:
+              with open(f,encoding="utf8",errors="ignore") as file:
+                  lines=file.readlines()
+
+              i=0
+              while i<len(lines):
+                  if lines[i].startswith("#EXTINF"):
+                      ext=lines[i].strip()
+                      if i+1>=len(lines):
+                          break
+                      url=lines[i+1].strip()
+                      if not url.startswith("http"):
+                          i+=2
+                          continue
+                      m=re.search(r',(.*)',ext)
+                      name=m.group(1).strip() if m else url
+                      temp.append({
+                          "name":name,
+                          "ext":ext,
+                          "url":url,
+                          "score":score(ext,url)
+                      })
+                      i+=2
+                  else:
+                      i+=1
+
+          temp.sort(key=lambda x:x["score"],reverse=True)
+
+          final=[]
+
+          for c in temp:
+              lname=c["name"].lower()
+              if c["url"] in urls:
+                  continue
+              if lname in names:
+                  continue
+              urls.add(c["url"])
+              names.add(lname)
+              final.append(c)
+
+          final.sort(key=lambda x:x["name"].lower())
+
+          with open("combined.m3u","w",encoding="utf8") as out:
+              out.write("#EXTM3U\n")
+              for c in final:
+                  out.write(c["ext"]+"\n")
+                  out.write(c["url"]+"\n")
+          EOF
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add combined.m3u
+
+          git diff --cached --quiet && exit 0
+
+          git commit -m "Automatic IPTV Update"
+
+          git push
