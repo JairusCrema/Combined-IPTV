@@ -125,3 +125,5 @@ https://streams.comclark.com/pknsd/vegaslifetv/playlist.m3u8
 https://cdn.vegasplus.us/vegas/vltv/playlist.m3u8
 #EXTINF:-1,Yahoo! Finance (1080p)
 https://yahoo-samsung.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-name="Nickelodeon" group-title="Kids",Nickelodeon
+https://YOUR_WORKING_STREAM_URL
