@@ -121,3 +121,7 @@ https://cdn.vegasplus.us/vegas/vltv/playlist.m3u8
 https://yahoo-samsung.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-name="Nickelodeon" group-title="Kids",Nickelodeon
 http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
+#EXTINF:-1 tvg-name="heart of asia" group-title="Anime",Nokotan
+https://nokotan.anhkz.fr/channel/n696d5dc/index.m3u8?q=d0475082894a131707d75e3ae57d6608
+#EXTINF:-1 tvg-name="I Heart Movies" group-title="Movies",I Heart Movies
+https://hls.nathcreqtives.com/apt.media.player/movies/citynet/tv-7.6/ihm/playlist.m3u8
