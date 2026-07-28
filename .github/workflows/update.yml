@@ -74,17 +74,77 @@ jobs:
 
           temp.sort(key=lambda x:x["score"],reverse=True)
 
+          blocked=set()
+
+          try:
+              with open("blocked.txt",encoding="utf8") as file:
+                  for line in file:
+                      line=line.strip().lower()
+                      if line:
+                          blocked.add(line)
+          except FileNotFoundError:
+              pass
+
           final=[]
 
           for c in temp:
               lname=c["name"].lower()
+
+              if lname in blocked:
+                  continue
+
               if c["url"] in urls:
                   continue
+
               if lname in names:
                   continue
+
               urls.add(c["url"])
               names.add(lname)
               final.append(c)
+
+          try:
+              with open("custom.m3u",encoding="utf8",errors="ignore") as file:
+                  lines=file.readlines()
+
+              i=0
+              while i<len(lines):
+                  if lines[i].startswith("#EXTINF"):
+                      ext=lines[i].strip()
+
+                      if i+1>=len(lines):
+                          break
+
+                      url=lines[i+1].strip()
+
+                      if not url.startswith("http"):
+                          i+=2
+                          continue
+
+                      m=re.search(r',(.*)',ext)
+                      name=m.group(1).strip() if m else url
+                      lname=name.lower()
+
+                      if lname in blocked:
+                          i+=2
+                          continue
+
+                      if url not in urls and lname not in names:
+                          final.append({
+                              "name":name,
+                              "ext":ext,
+                              "url":url
+                          })
+
+                          urls.add(url)
+                          names.add(lname)
+
+                      i+=2
+                  else:
+                      i+=1
+
+          except FileNotFoundError:
+              pass
 
           final.sort(key=lambda x:x["name"].lower())
 
@@ -100,7 +160,7 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
-          git add combined.m3u
+          git add combined.m3u custom.m3u blocked.txt
 
           git diff --cached --quiet && exit 0
 
