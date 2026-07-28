@@ -1,45 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="I Heart Movies" group-title="Movies",I Heart Movies
-https://hls.nathcreqtives.com/apt.media.player/movies/citynet/tv-7.6/ihm/playlist.m3u8
-#EXTINF:-1 tvg-name="Heart of Asia" group-title="Anime",Heart of Asia
+#EXTINF:-1 tvg-name="I Heart Movies" group-title="Anime",I Heart Movies
 https://nokotan.anhkz.fr/channel/n696d5dc/index.m3u8?q=d0475082894a131707d75e3ae57d6608
 #EXTINF:-1 tvg-name="Nickelodeon" group-title="Kids",Nickelodeon
 http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
-#EXTINF:-1 group-title="Philippines",GMA 7
-http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/99.m3u8
-#EXTINF:-1 group-title="Philippines",Kapamilya
-http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/100.m3u8
-#EXTINF:-1 group-title="Philippines",Kapatid
-http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/102.m3u8
-#EXTINF:-1 group-title="Movies",Cinemo
-http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/127.m3u8
-#EXTINF:-1 group-title="Anime",Animax
-http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/125.m3u8
-#EXTINF:-1 group-title="Entertainment",Jeepney TV
-http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/106.m3u8
-#EXTINF:-1 group-title="Movies",Cinema One
-http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/109.m3u8
-#EXTINF:-1 group-title="Movies",PBO
-http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/110.m3u8
-#EXTINF:-1 group-title="Movies",Cinemax
-http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/111.m3u8
-#EXTINF:-1 group-title="Movies",FOX Movies
-http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/112.m3u8
-#EXTINF:-1 group-title="Movies",HBO
-http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/113.m3u8
-#EXTINF:-1 group-title="Movies",Warner Bros
-http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/132.m3u8
-#EXTINF:-1 group-title="Kids",Disney
-http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/126.m3u8
-#EXTINF:-1 group-title="Kids",Nick Jr
-http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/105.m3u8
-#EXTINF:-1 group-title="Entertainment",FOX 2
-http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/117.m3u8
-#EXTINF:-1 group-title="Entertainment",Solar Channel
-http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/118.m3u8
-#EXTINF:-1 group-title="Sports",NBA
-http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/120.m3u8
-#EXTINF:-1 group-title="Sports",PBA Rush
-http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/122.m3u8
-#EXTINF:-1 group-title="Education",Knowledge Channel
-http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/135.m3u8
