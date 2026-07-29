@@ -3,4 +3,5 @@
 https://nokotan.anhkz.fr/channel/n696d5dc/index.m3u8?q=d0475082894a131707d75e3ae57d6608
 #EXTINF:-1 tvg-name="Nickelodeon" group-title="Kids",Nickelodeon
 http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
+#EXTINF:-1 tvg-id="DreamWorks" tvg-name="DreamWorks" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/12/DreamWorks_Channel_logo.svg" group-title="Kids",DreamWorks
 http://181.78.106.127:5000/play/ca054/index.m3u8
