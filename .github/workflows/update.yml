@@ -25,70 +25,75 @@ jobs:
           python3 << 'EOF'
           import re
 
-          files=["harley.m3u","iptvorg.m3u"]
-          channels=[]
-          urls=set()
-          names=set()
+          files = ["harley.m3u", "iptvorg.m3u"]
+          urls = set()
+          names = set()
 
-          def score(extinf,url):
-              s=0
+          def score(extinf, url):
+              s = 0
               if url.lower().startswith("https://"):
-                  s+=200
+                  s += 200
               if "1080" in extinf.lower():
-                  s+=100
+                  s += 100
               elif "720" in extinf.lower():
-                  s+=60
+                  s += 60
               elif "480" in extinf.lower():
-                  s+=40
+                  s += 40
               if "hevc" in extinf.lower():
-                  s+=20
+                  s += 20
               return s
 
-          temp=[]
+          temp = []
 
           for f in files:
-              with open(f,encoding="utf8",errors="ignore") as file:
-                  lines=file.readlines()
+              with open(f, encoding="utf8", errors="ignore") as file:
+                  lines = file.readlines()
 
-              i=0
-              while i<len(lines):
+              i = 0
+              while i < len(lines):
                   if lines[i].startswith("#EXTINF"):
-                      ext=lines[i].strip()
-                      if i+1>=len(lines):
+                      ext = lines[i].strip()
+
+                      if i + 1 >= len(lines):
                           break
-                      url=lines[i+1].strip()
+
+                      url = lines[i + 1].strip()
+
                       if not url.startswith("http"):
-                          i+=2
+                          i += 2
                           continue
-                      m=re.search(r',(.*)',ext)
-                      name=m.group(1).strip() if m else url
+
+                      m = re.search(r',(.*)', ext)
+                      name = m.group(1).strip() if m else url
+
                       temp.append({
-                          "name":name,
-                          "ext":ext,
-                          "url":url,
-                          "score":score(ext,url)
+                          "name": name,
+                          "ext": ext,
+                          "url": url,
+                          "score": score(ext, url)
                       })
-                      i+=2
+
+                      i += 2
                   else:
-                      i+=1
+                      i += 1
 
-          temp.sort(key=lambda x:x["score"],reverse=True)
+          temp.sort(key=lambda x: x["score"], reverse=True)
 
-          blocked=set()
+          blocked = set()
 
           try:
-              with open("blocked.txt",encoding="utf8") as file:
+              with open("blocked.txt", encoding="utf8") as file:
                   for line in file:
-                      line=line.strip().lower()
+                      line = line.strip().lower()
                       if line:
                           blocked.add(line)
           except FileNotFoundError:
               pass
 
-          final=[]
+          final = []
 
           for c in temp:
-              lname=c["name"].lower()
+              lname = c["name"].lower()
 
               if lname in blocked:
                   continue
@@ -104,55 +109,55 @@ jobs:
               final.append(c)
 
           try:
-              with open("custom.m3u",encoding="utf8",errors="ignore") as file:
-                  lines=file.readlines()
+              with open("custom.m3u", encoding="utf8", errors="ignore") as file:
+                  lines = file.readlines()
 
-              i=0
-              while i<len(lines):
+              i = 0
+              while i < len(lines):
                   if lines[i].startswith("#EXTINF"):
-                      ext=lines[i].strip()
+                      ext = lines[i].strip()
 
-                      if i+1>=len(lines):
+                      if i + 1 >= len(lines):
                           break
 
-                      url=lines[i+1].strip()
+                      url = lines[i + 1].strip()
 
                       if not url.startswith("http"):
-                          i+=2
+                          i += 2
                           continue
 
-                      m=re.search(r',(.*)',ext)
-                      name=m.group(1).strip() if m else url
-                      lname=name.lower()
+                      m = re.search(r',(.*)', ext)
+                      name = m.group(1).strip() if m else url
+                      lname = name.lower()
 
                       if lname in blocked:
-                          i+=2
+                          i += 2
                           continue
 
                       if url not in urls and lname not in names:
                           final.append({
-                              "name":name,
-                              "ext":ext,
-                              "url":url
+                              "name": name,
+                              "ext": ext,
+                              "url": url
                           })
 
                           urls.add(url)
                           names.add(lname)
 
-                      i+=2
+                      i += 2
                   else:
-                      i+=1
+                      i += 1
 
           except FileNotFoundError:
               pass
 
-          final.sort(key=lambda x:x["name"].lower())
+          final.sort(key=lambda x: x["name"].lower())
 
-          with open("combined.m3u","w",encoding="utf8") as out:
-    out.write('#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"\n')
-    for c in final:
-        out.write(c["ext"]+"\n")
-        out.write(c["url"]+"\n")
+          with open("combined.m3u", "w", encoding="utf8") as out:
+              out.write('#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"\n')
+              for c in final:
+                  out.write(c["ext"] + "\n")
+                  out.write(c["url"] + "\n")
           EOF
 
       - name: Commit changes
