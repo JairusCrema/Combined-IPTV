@@ -149,10 +149,10 @@ jobs:
           final.sort(key=lambda x:x["name"].lower())
 
           with open("combined.m3u","w",encoding="utf8") as out:
-              out.write("#EXTM3U\n")
-              for c in final:
-                  out.write(c["ext"]+"\n")
-                  out.write(c["url"]+"\n")
+    out.write('#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"\n')
+    for c in final:
+        out.write(c["ext"]+"\n")
+        out.write(c["url"]+"\n")
           EOF
 
       - name: Commit changes
