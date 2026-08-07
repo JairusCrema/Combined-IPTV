@@ -49,7 +49,7 @@ http://136.239.159.18:6610/001/2/ch00000090990000001092/manifest.mpd?AuthInfo=v8
 https://streams.comclark.com/pknsd/jeepney/playlist.m3u8
 #EXTINF:-1 tvg-id="KnowledgeChannel.ph@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d3/Knowledge_Channel_logo.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="Education",Knowledge Channel
 https://thinkkast.dpdns.org/tkk-ph/i7/knowledge_channel/knowledge-channel.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/00/Magic_Kids_1995.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",Magic Kids
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/00/Magic_Kids_1995.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",Magic Kids CH
 https://magicstream.ddns.net/magicstream/stream.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Mindanao_Media_Network.jpg/1920px-Mindanao_Media_Network.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",Mindanow Network TV CH
 https://streams.comclark.com/overlay/mindanow/playlist.m3u8
