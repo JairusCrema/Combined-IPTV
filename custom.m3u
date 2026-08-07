@@ -21,3 +21,7 @@ http://136.239.173.2:6610/001/2/ch00000090990000001087/manifest.mpd?AuthInfo=v87
 http://136.239.158.10:6610/001/2/ch00000090990000001179/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Bow35sHUcBhGBpxqddBGYEnytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001415&contentid=ch00000000000000001415&videoid=ch00000090990000001179&recommendtype=0&userid=1205050496206&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=02WMA0HI2O3AXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
 #EXTINF:-1 tvg-id="GTV.ph@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/5/5a/GTV_Philippines_Logo.png" group-title="News",GTV
 https://streams.comclark.com/pknsd/gtv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/62/BBC_News_2019.svg",BBC News Asia Pacific
+https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8
+#EXTINF:-1 tvg-id="BBCLifestyle.uk@Philippines" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/29/BBC_Lifestyle.svg/revision/latest?cb=20091202093647" group-title="Lifestyle",BBC Lifestyle Philippines
+https://thinkkast.dpdns.org/thinkkast/bbc_lstylehd/versiglia/index.m3u8
