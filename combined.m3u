@@ -21,6 +21,8 @@ https://thinkkast.dpdns.org/thinkkast/bbc_lstylehd/versiglia/index.m3u8
 https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8
 #EXTINF:-1,BBC World News
 https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/BeIN_Sports_XTRA_1_logo.svg/1920px-BeIN_Sports_XTRA_1_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",Bein Sports xtra CH
+https://amg01334-beinsportsllc-beinxtra-localnow-kcy6r.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="BilyonaryoNewsChannel.ph@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/BilyonaryoNewsChannel_Logo_-_Black_%282024%29.png/1920px-BilyonaryoNewsChannel_Logo_-_Black_%282024%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail" group-title="Business",Bilyonaryo News Channel
 https://streams.comclark.com/transcode/bilyonaryo/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://www.pngfind.com/pngs/m/90-907559_bloomberg-logo-photo-bloomberg-tv-logo-png-transparent.png",Bloomberg Asia CH
@@ -33,6 +35,10 @@ https://stream-cdn-iad3.vaughnsoft.net/play/live_cartoonchannelph.flv
 http://161.49.17.2:6610/001/2/ch00000090990000001125/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BoZQDeIq8A03ROpfeWN75MYytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001238&contentid=ch00000000000000001238&videoid=ch00000090990000001125&recommendtype=0&userid=1642489849443&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=9X3U5ZPDLQVXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
 #EXTINF:-1 tvg-id="CCTN47.ph@SD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c7/CCTN_old.png/revision/latest?cb=20220729114430" group-title="Religious",CCTN 47 PH
 http://122.55.252.134:8443/live/bba5b536faeacb9b56a3239f1ee8e3b3/1.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/CGTN_Documentary_logo.png/1920px-CGTN_Documentary_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",CGTN DOCUMENTARIES CH
+https://english-livebkali.cgtn.com/live/doccgtn_1.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/CGTN-2.svg/1920px-CGTN-2.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",CGTN News LIVE CH
+http://136.239.173.26:6610/001/2/ch00000090990000001146/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Bq0bLdlQQxjquEy7BUYBE%2BOytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001316&contentid=ch00000000000000001316&videoid=ch00000090990000001146&recommendtype=0&userid=1917967408923&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=4ADPFTEPDLCXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
 #EXTINF:-1 tvg-id="CinemaOne.ph" tvg-name="Cinema One" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/6d/Cinema_One_2013_logo.svg" group-title="Movies",Cinema One
 http://136.158.97.2:6610/001/2/ch00000090990000001283/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Br2cQyuTRlDkHeiqeVidUqqytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001548&contentid=ch00000000000000001548&videoid=ch00000090990000001283&recommendtype=0&userid=1041236685526&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=852NEU8T1ZOXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
 #EXTINF:-1 tvg-id="CineMo.ph@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/41/Cinemologo.png" group-title="Movies",Cinemo
@@ -53,19 +59,21 @@ https://cdn3.wowza.com/1/T2NXeHF6UGlGbHY3/WFluRldQ/hls/live/playlist.m3u8
 http://136.158.97.2:6610/001/2/ch00000090990000001093/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BoLvT86fM74ocVChyFS93HUytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001214&contentid=ch00000000000000001214&videoid=ch00000090990000001093&recommendtype=0&userid=1084724632836&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=FGE3OISG4KGXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
 #EXTINF:-1 tvg-id="GTV.ph@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/5/5a/GTV_Philippines_Logo.png" group-title="News",GTV
 https://streams.comclark.com/pknsd/gtv/playlist.m3u8
-#EXTINF:-1 tvg-id="HopeChannelPhilippines.ph@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Hope_TV.gif?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="Religious",Hope Channel Philippines
+#EXTINF:-1 tvg-id="HopeChannelPhilippines.ph@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Hope_TV.gif?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="Religious",Hope Channel Philippines CH
 https://jstre.am/live/jsl:7A1swL7Fhlh.m3u8
-#EXTINF:-1 tvg-id="IBC13.ph@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Intercontinental_Broadcasting_Corporation_%28IBC%29.svg/1920px-Intercontinental_Broadcasting_Corporation_%28IBC%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail" group-title="General",IBC 13
+#EXTINF:-1 tvg-id="IBC13.ph@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Intercontinental_Broadcasting_Corporation_%28IBC%29.svg/1920px-Intercontinental_Broadcasting_Corporation_%28IBC%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail" group-title="General",IBC 13 CH
 https://streams.comclark.com/pknsd/ibc_13/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/INC_TV_New_Logo.png/1920px-INC_TV_New_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",INCTV
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/INC_TV_New_Logo.png/1920px-INC_TV_New_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",INC TV CH
 http://136.239.159.18:6610/001/2/ch00000090990000001092/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BrC5ZD%2FYbS0KSGrFVJUNIMkytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001178&contentid=ch00000000000000001178&videoid=ch00000090990000001092&recommendtype=0&userid=1760058453659&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=HILNO5G9U9IXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
 #EXTINF:-1 tvg-id="INTRAVEL.nl@Philippines" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Intravel.png" group-title="Travel",InTravel (1080p)
 https://amg00861-amg00861c10-rakuten-uk-3152.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/88/TV_Japan_HD.png/revision/latest/scale-to-width-down/250?cb=20230919000810",Japanim TV CH
 https://foxkidstv.be:3369/stream/play.m3u8
+#EXTINF:-1 tvg-id="JeepneyTV.ph@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Jeepney_TV_logo.png/1920px-Jeepney_TV_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail" group-title="General",Jeepney TV CH
+https://streams.comclark.com/pknsd/jeepney/playlist.m3u8
 #EXTINF:-1 tvg-id="KapatidTV5.ph@SD" tvg-logo="https://i.imgur.com/xb5lkwG.png" group-title="General",Kapatid TV 5 (480p) [Geo-blocked]
 https://thinkkast.dpdns.org/tkk-ph/i7/kapatid_hd/kapatid.m3u8
-#EXTINF:-1 tvg-id="KnowledgeChannel.ph@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d3/Knowledge_Channel_logo.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="Education",Knowledge Channel
+#EXTINF:-1 tvg-id="KnowledgeChannel.ph@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d3/Knowledge_Channel_logo.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="Education",Knowledge Channel CH
 https://thinkkast.dpdns.org/tkk-ph/i7/knowledge_channel/knowledge-channel.m3u8
 #EXTINF:-1 tvg-id="KoolTV.ph@SD" tvg-logo="https://yt3.googleusercontent.com/opqPJfc0Ptd9ohl4R-2hPjaquIAdWuqvRb0T_LBCmfyGznIvfGN0HOlcWZk6Lj2jk11s2Zlk=s1200-c-k-c0x00ffffff-no-rj" group-title="Music",Kool TV (720p)
 https://twitch-m3u8.bastypro112.workers.dev/kooltvlive/index.m3u8
@@ -87,9 +95,9 @@ https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00718-outdoorchannela-outdoortvnz
 https://amg19223-amg19223c3-amgplt0351.playout.now3.amagi.tv/playlist/amg19223-amg19223c3-amgplt0351/playlist.m3u8
 #EXTINF:-1 tvg-id="PremierSports2.ph@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Premier_sports_logo_2018.svg/1920px-Premier_sports_logo_2018.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail" group-title="Sports",Premier Sports 2
 https://amg19223-amg19223c4-amgplt0351/playlist/amg19223-amg19223c4-amgplt0351/playlist.m3u8
-#EXTINF:-1 tvg-id="PTV.ph@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/95/PTV_News_logo.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="Undefined",PTV 4
+#EXTINF:-1 tvg-id="PTV.ph@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/95/PTV_News_logo.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="Undefined",PTV 4 CH
 https://streams.comclark.com/pknsd/ptv/playlist.m3u8
-#EXTINF:-1 tvg-id="RPTV.ph@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/RPTV_%282024%29.svg/1920px-RPTV_%282024%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail" group-title="General",RPTV
+#EXTINF:-1 tvg-id="RPTV.ph@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/RPTV_%282024%29.svg/1920px-RPTV_%282024%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail" group-title="General",RPTV CH
 https://streams.comclark.com/pknsd/rptv/playlist.m3u8
 #EXTINF:-1 tvg-id="RTMASEAN.my@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/RTM_Asean_%282024%29.svg/1920px-RTM_Asean_%282024%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail" group-title="News",RTM ASEAN CH
 https://d25tgymtnqzu8s.cloudfront.net/event/smil:event1/chunklist_b2596000_slENG.m3u8
@@ -103,5 +111,5 @@ http://136.158.97.2:6610/001/2/ch00000090990000001160/manifest.mpd?AuthInfo=v87H
 https://streams.comclark.com/pknsd/tv5/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/6d/453067739_3793881440880086_423513722425415211_n.png/revision/latest?cb=20260430045534",Vegas Life TV PH
 https://streams.comclark.com/pknsd/vegaslifetv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Yahoo%21_Finance_logo_2021.png/1920px-Yahoo%21_Finance_logo_2021.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",Yahoo! Finance
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Yahoo%21_Finance_logo_2021.png/1920px-Yahoo%21_Finance_logo_2021.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",Yahoo! Finance CH
 https://yahoo-samsung.amagi.tv/playlist.m3u8
