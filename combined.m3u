@@ -73,7 +73,7 @@ https://thinkkast.dpdns.org/tkk-ph/i7/knowledge_channel/knowledge-channel.m3u8
 https://twitch-m3u8.bastypro112.workers.dev/kooltvlive/index.m3u8
 #EXTINF:-1 tvg-id="LivingAsiaChannel.ph@HD" tvg-logo="https://i.imgur.com/q3UToRM.png" group-title="Travel",Living Asia Channel (1080p)
 https://cdn.vegasplus.us/vegas/lac/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/00/Magic_Kids_1995.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",Magic Kids
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/00/Magic_Kids_1995.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",Magic Kids CH
 https://magicstream.ddns.net/magicstream/stream.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Mindanao_Media_Network.jpg/1920px-Mindanao_Media_Network.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",Mindanow Network TV CH
 https://streams.comclark.com/overlay/mindanow/playlist.m3u8
