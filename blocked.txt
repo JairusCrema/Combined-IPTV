@@ -13,3 +13,5 @@ GMA
 ALLTV
 A2Z
 GTV (480P) [Not 24/7]
+BBC Lifestyle Philippines (720p)
+BBC News Asia Pacific (720p)
