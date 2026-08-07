@@ -5,6 +5,8 @@ http://136.239.173.2:6610/001/2/ch00000090990000001087/manifest.mpd?AuthInfo=v87
 https://amg19223-amg19223c12-amgplt0352.playout.now3.amagi.tv/playlist/amg19223-amg19223c12-amgplt0352/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/39/All_TV_Logo_2023.png",ALLTV2
 http://136.239.158.10:6610/001/2/ch00000090990000001179/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Bow35sHUcBhGBpxqddBGYEnytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001415&contentid=ch00000000000000001415&videoid=ch00000090990000001179&recommendtype=0&userid=1205050496206&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=02WMA0HI2O3AXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+#EXTINF:-1 tvg-id="ANC.ph@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/ABS-CBN_News_Channel_%282015%29.svg/1920px-ABS-CBN_News_Channel_%282015%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail" group-title="News",ANC
+https://streams.comclark.com/pknsd/anc/playlist.m3u8
 #EXTINF:-1 tvg-id="AnimaxAsia.sg@Philippines" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Animax.png/960px-Animax.png" group-title="Animation",Animax Asia Philippines (576p)
 https://thinkkast.dpdns.org/thinkkast/cg_animax_sd_new/versiglia/index.m3u8
 #EXTINF:-1,Arirang
@@ -13,12 +15,14 @@ https://amdlive-ch03-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/pl
 https://play.wenxiang.cn/live/1a88465f153e1dd2108fd791bf4f25f7.flv
 #EXTINF:-1 tvg-id="AXNAsia.sg@Philippines" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png" group-title="Movies;Series",AXN Asia Philippines (576p)
 https://thinkkast.dpdns.org/thinkkast/cg_axn_sd/versiglia/index.m3u8
-#EXTINF:-1 tvg-id="BBCLifestyle.uk@Philippines" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/29/BBC_Lifestyle.svg/revision/latest?cb=20091202093647" group-title="Lifestyle",BBC Lifestyle Philippines
+#EXTINF:-1 tvg-id="BBCLifestyle.uk@Philippines" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/29/BBC_Lifestyle.svg/revision/latest?cb=20091202093647" group-title="Lifestyle",BBC Lifestyle PH
 https://thinkkast.dpdns.org/thinkkast/bbc_lstylehd/versiglia/index.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/62/BBC_News_2019.svg",BBC News Asia Pacific
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/62/BBC_News_2019.svg",BBC News Asia
 https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8
 #EXTINF:-1,BBC World News
 https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
+#EXTINF:-1 tvg-id="BilyonaryoNewsChannel.ph@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/BilyonaryoNewsChannel_Logo_-_Black_%282024%29.png/1920px-BilyonaryoNewsChannel_Logo_-_Black_%282024%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail" group-title="Business",Bilyonaryo News Channel
+https://streams.comclark.com/transcode/bilyonaryo/playlist.m3u8
 #EXTINF:-1,Bloomberg Asia
 https://www.bloomberg.com/media-manifest/streams/asia.m3u8
 #EXTINF:-1,Blues TV
@@ -37,6 +41,10 @@ https://streams.comclark.com/pknsd/cinemo/playlist.m3u8
 https://live.cltv36.tv:5443/LiveApp/streams/cltvlive.m3u8
 #EXTINF:-1,CNN
 https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4a/Depedtvlogo.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",DepEd TV Channel
+http://136.239.158.10:6610/001/2/ch00000090990000001340/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BpqUIe1xo9fgdQj%2FdedKSTyytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001832&contentid=ch00000000000000001832&videoid=ch00000090990000001340&recommendtype=0&userid=1586131651828&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=1RR87QJ6AY2XXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+#EXTINF:-1 tvg-id="DisneyChannel.us" tvg-name="Disney Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d2/2002_Disney_Channel_wordmark.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="Kids",Disney Channel PH
+http://206.212.244.63/650/index.m3u8
 #EXTINF:-1,EWTN Asia-Pacific (720p) [Not 24/7]
 https://cdn3.wowza.com/1/QmVNUVhTNTZSS3Uz/YWQ0aHpi/hls/live/playlist.m3u8
 #EXTINF:-1,EWTN Europe (720p) [Not 24/7]
@@ -47,29 +55,61 @@ https://cdn.vegasplus.us/vegas/ftv/playlist.m3u8
 http://136.158.97.2:6610/001/2/ch00000090990000001093/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BoLvT86fM74ocVChyFS93HUytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001214&contentid=ch00000000000000001214&videoid=ch00000090990000001093&recommendtype=0&userid=1084724632836&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=FGE3OISG4KGXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
 #EXTINF:-1 tvg-id="GTV.ph@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/5/5a/GTV_Philippines_Logo.png" group-title="News",GTV
 https://streams.comclark.com/pknsd/gtv/playlist.m3u8
+#EXTINF:-1 tvg-id="HopeChannelPhilippines.ph@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Hope_TV.gif?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="Religious",Hope Channel Philippines
+https://jstre.am/live/jsl:7A1swL7Fhlh.m3u8
+#EXTINF:-1 tvg-id="IBC13.ph@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Intercontinental_Broadcasting_Corporation_%28IBC%29.svg/1920px-Intercontinental_Broadcasting_Corporation_%28IBC%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail" group-title="General",IBC 13
+https://streams.comclark.com/pknsd/ibc_13/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/INC_TV_New_Logo.png/1920px-INC_TV_New_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",INCTV
+http://136.239.159.18:6610/001/2/ch00000090990000001092/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BrC5ZD%2FYbS0KSGrFVJUNIMkytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001178&contentid=ch00000000000000001178&videoid=ch00000090990000001092&recommendtype=0&userid=1760058453659&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=HILNO5G9U9IXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
 #EXTINF:-1 tvg-id="INTRAVEL.nl@Philippines" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Intravel.png" group-title="Travel",InTravel (1080p)
 https://amg00861-amg00861c10-rakuten-uk-3152.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1,Japanim TV (1080p)
 https://foxkidstv.be:3369/stream/play.m3u8
 #EXTINF:-1 tvg-id="KapatidTV5.ph@SD" tvg-logo="https://i.imgur.com/xb5lkwG.png" group-title="General",Kapatid TV 5 (480p) [Geo-blocked]
 https://thinkkast.dpdns.org/tkk-ph/i7/kapatid_hd/kapatid.m3u8
+#EXTINF:-1 tvg-id="KnowledgeChannel.ph@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d3/Knowledge_Channel_logo.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="Education",Knowledge Channel
+https://thinkkast.dpdns.org/tkk-ph/i7/knowledge_channel/knowledge-channel.m3u8
 #EXTINF:-1 tvg-id="KoolTV.ph@SD" tvg-logo="https://yt3.googleusercontent.com/opqPJfc0Ptd9ohl4R-2hPjaquIAdWuqvRb0T_LBCmfyGznIvfGN0HOlcWZk6Lj2jk11s2Zlk=s1200-c-k-c0x00ffffff-no-rj" group-title="Music",Kool TV (720p)
 https://twitch-m3u8.bastypro112.workers.dev/kooltvlive/index.m3u8
 #EXTINF:-1 tvg-id="LivingAsiaChannel.ph@HD" tvg-logo="https://i.imgur.com/q3UToRM.png" group-title="Travel",Living Asia Channel (1080p)
 https://cdn.vegasplus.us/vegas/lac/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/00/Magic_Kids_1995.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",Magic Kids
+https://magicstream.ddns.net/magicstream/stream.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Mindanao_Media_Network.jpg/1920px-Mindanao_Media_Network.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",Mindanow Network TV CH
+https://streams.comclark.com/overlay/mindanow/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Moonbug_Kids.svg/1920px-Moonbug_Kids.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",Moonbug Kids CH
+https://moonbug-rokuus.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/MovieSphere_Gold_2025_logo.svg/1920px-MovieSphere_Gold_2025_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",MovieSphere CH
+https://moviesphereuk-samsunguk.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="Nickelodeon.us" tvg-name="Nickelodeon" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Nickelodeon_%281984_logo%29.svg/1920px-Nickelodeon_%281984_logo%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail" group-title="Kids",Nickelodeon PH
+http://213.91.179.28:8000/play/a056
 #EXTINF:-1 tvg-id="OneSports.ph" tvg-name="One Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9c/One_Sports_logo.svg" group-title="Sports",One Sports
 http://136.239.158.18:6610/001/2/ch00000090990000001083/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BpiZhzOAmsfItUIS2UHXxD0ytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001173&contentid=ch00000000000000001173&videoid=ch00000090990000001083&recommendtype=0&userid=1797679327850&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=RCAJM4IFILAXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
 #EXTINF:-1,Outdoor Channel
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00718-outdoorchannela-outdoortvnz-samsungnz/playlist.m3u8
 #EXTINF:-1,Persiana Junior
 https://junhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="PremierSports.ph@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Premier_sports_logo_2018.svg/1920px-Premier_sports_logo_2018.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail" group-title="Sports",Premier Sports
+https://amg19223-amg19223c3-amgplt0351.playout.now3.amagi.tv/playlist/amg19223-amg19223c3-amgplt0351/playlist.m3u8
+#EXTINF:-1 tvg-id="PremierSports2.ph@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Premier_sports_logo_2018.svg/1920px-Premier_sports_logo_2018.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail" group-title="Sports",Premier Sports 2
+https://amg19223-amg19223c4-amgplt0351/playlist/amg19223-amg19223c4-amgplt0351/playlist.m3u8
 #EXTINF:-1 tvg-id="PremierSports2.ph@SD" tvg-logo="https://i.imgur.com/UQeXWd2.png" group-title="Sports",Premier Sports 2 (1080p)
 https://amg19223-amg19223c4-amgplt0351.playout.now3.amagi.tv/playlist/amg19223-amg19223c4-amgplt0351/playlist.m3u8
+#EXTINF:-1 tvg-id="PTV.ph@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/95/PTV_News_logo.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="Undefined",PTV 4
+https://streams.comclark.com/pknsd/ptv/playlist.m3u8
+#EXTINF:-1 tvg-id="RPTV.ph@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/RPTV_%282024%29.svg/1920px-RPTV_%282024%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail" group-title="General",RPTV
+https://streams.comclark.com/pknsd/rptv/playlist.m3u8
+#EXTINF:-1 tvg-id="RTMASEAN.my@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/RTM_Asean_%282024%29.svg/1920px-RTM_Asean_%282024%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail" group-title="News",RTM ASEAN CH
+https://d25tgymtnqzu8s.cloudfront.net/event/smil:event1/chunklist_b2596000_slENG.m3u8
 #EXTINF:-1,Tagalized Movie Channel
 http://136.239.159.20:6610/001/2/ch00000090990000001080/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BrHx%2Fyl86rMkFVqtHp1NtQIytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001153&contentid=ch00000000000000001153&videoid=ch00000090990000001080&recommendtype=0&userid=1123674387331&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=OWFM2G9EILPXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
 #EXTINF:-1,Thrillers
 https://amc-rushbyamc-1-us.vizio.wurl.tv/playlist.m3u8
 #EXTINF:-1,TV Maria
 http://136.158.97.2:6610/001/2/ch00000090990000001160/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BqJiJmfV%2B93mjmGGmqynSohytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001374&contentid=ch00000000000000001374&videoid=ch00000090990000001160&recommendtype=0&userid=1605694488407&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=G669IAJA55PXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+#EXTINF:-1 tvg-id="TV5.ph@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/TV5_%28Philippines%29_logo.svg/1920px-TV5_%28Philippines%29_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail" group-title="Undefined",TV5
+https://streams.comclark.com/pknsd/tv5/playlist.m3u8
 #EXTINF:-1,Vegas Life TV
 https://streams.comclark.com/pknsd/vegaslifetv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Yahoo%21_Finance_logo_2021.png/1920px-Yahoo%21_Finance_logo_2021.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",Yahoo! Finance
+https://yahoo-samsung.amagi.tv/playlist.m3u8
