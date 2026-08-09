@@ -29,18 +29,24 @@ jobs:
           urls = set()
           names = set()
 
+          EPG_URL = "https://epg.pw/xmltv/epg_PH.xml"
+
           def score(extinf, url):
               s = 0
+
               if url.lower().startswith("https://"):
                   s += 200
+
               if "1080" in extinf.lower():
                   s += 100
               elif "720" in extinf.lower():
                   s += 60
               elif "480" in extinf.lower():
                   s += 40
+
               if "hevc" in extinf.lower():
                   s += 20
+
               return s
 
           temp = []
@@ -50,6 +56,7 @@ jobs:
                   lines = file.readlines()
 
               i = 0
+
               while i < len(lines):
                   if lines[i].startswith("#EXTINF"):
                       ext = lines[i].strip()
@@ -74,6 +81,7 @@ jobs:
                       })
 
                       i += 2
+
                   else:
                       i += 1
 
@@ -85,8 +93,10 @@ jobs:
               with open("blocked.txt", encoding="utf8") as file:
                   for line in file:
                       line = line.strip().lower()
+
                       if line:
                           blocked.add(line)
+
           except FileNotFoundError:
               pass
 
@@ -106,13 +116,16 @@ jobs:
 
               urls.add(c["url"])
               names.add(lname)
+
               final.append(c)
 
+          # Add custom channels
           try:
               with open("custom.m3u", encoding="utf8", errors="ignore") as file:
                   lines = file.readlines()
 
               i = 0
+
               while i < len(lines):
                   if lines[i].startswith("#EXTINF"):
                       ext = lines[i].strip()
@@ -145,6 +158,7 @@ jobs:
                           names.add(lname)
 
                       i += 2
+
                   else:
                       i += 1
 
@@ -153,11 +167,21 @@ jobs:
 
           final.sort(key=lambda x: x["name"].lower())
 
+          # Write final playlist with EPG URL
           with open("combined.m3u", "w", encoding="utf8") as out:
-              out.write('#EXTM3U\n')
+
+              out.write(
+                  '#EXTM3U x-tvg-url="' + EPG_URL + '"\n'
+              )
+
               for c in final:
                   out.write(c["ext"].strip() + "\n")
                   out.write(c["url"].strip() + "\n")
+
+          print("Generated combined.m3u")
+          print("EPG:", EPG_URL)
+          print("Channels:", len(final))
+
           EOF
 
       - name: Commit changes
