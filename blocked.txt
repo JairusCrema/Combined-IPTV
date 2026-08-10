@@ -11,7 +11,6 @@ FilAm TV Network
 Cinemo (480p)
 GMA
 ALLTV
-A2Z
 GTV (480P) [Not 24/7]
 BBC Lifestyle Philippines (720p)
 BBC News Asia Pacific (720p)
@@ -21,7 +20,6 @@ Bilyonaryo News Channel (1080p)
 CGTN Documentaries
 CGTN News Live
 DepEd TV
-Disney Channel
 Hope Channel Philippines (1080p)
 IBC 13 (480p) [Not 24/7]
 INCTV (720p) [Geo-blocked]
@@ -31,14 +29,12 @@ Magic Kids (486p)
 Mindanow Network TV
 Moonbug Kids
 MovieSphere
-Nickelodeon
 Premier Sports (1080p)
 PTV 4 (480p) [Not 24/7]
 RPTV (480p) [Not 24/7]
 RTM ASEAN
 TV5 (480p) [Not 24/7]
 Yahoo! Finance (1080p)
-Kapatid TV5 (480p) [Geo-blocked]
 Blues TV
 Bloomberg Asia
 CLTV 36 (720p) [Not 24/7]
