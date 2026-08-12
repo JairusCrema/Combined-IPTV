@@ -170,3 +170,6 @@ https://streams.comclark.com/pknsd/vegaslifetv/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Yahoo%21_Finance_logo_2021.png/1920px-Yahoo%21_Finance_logo_2021.svg",Yahoo! Finance CH
 https://yahoo-samsung.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=ANd9GcT7tdEgdS0LkMXXJr3O5N3p2laB01i12MXKHwNdQx3KzQ&s=10",I Heart Movies
+https://nokotan.anhkz.fr/channel/n696d5dc/index.m3u8?q=d0475082894a131707d75e3ae57d6608
