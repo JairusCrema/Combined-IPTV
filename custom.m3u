@@ -174,7 +174,7 @@ https://nokotan.anhkz.fr/channel/n696d5dc/index.m3u8?q=d0475082894a131707d75e3ae
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUVoLThijL4DdjU66hKao80taSj7UWHAiGPBCMOMPOOw&s",Heart of Asia
 https://nokotan.anhkz.fr/channel/n5f560977/index.m3u8?q=d0475082894a131707d75e3ae57d6608
 
-EXTINF:-1 tvg-name="Nickelodeon" group-title="Kids",Nickelodeon
+#EXTINF:-1 tvg-name="Nickelodeon" group-title="Kids",Nickelodeon
 https://jmp2.uk/plu-5ca673e0d0bd6c2689c94ce3.m3u8
 
 #EXTINF:-1 tvg-name="NBA TV" group-title="Sports",NBA TV
