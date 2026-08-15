@@ -101,6 +101,8 @@ https://moviesphereuk-samsunguk.amagi.tv/playlist.m3u8
 https://cdn1.ayitistream.com/NBATV/index.m3u8
 #EXTINF:-1 tvg-id="Net25.ph@SD" tvg-logo="https://i.imgur.com/pPPubX5.png" group-title="General",NET25 (480p)
 https://streams.comclark.com/pknsd/net_25/playlist.m3u8
+#EXTINF:-1 tvg-name="Nickelodeon" group-title="Kids",Nickelodeon
+https://jmp2.uk/plu-5ca673e0d0bd6c2689c94ce3.m3u8
 #EXTINF:-1 tvg-name="Nickelodeon USA" group-title="Kids",Nickelodeon USA
 http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
 #EXTINF:-1 tvg-id="549364" tvg-name="One Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9c/One_Sports_logo.svg" group-title="Sports",One Sports
