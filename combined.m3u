@@ -43,6 +43,8 @@ https://english-livebkali.cgtn.com/live/doccgtn_1.m3u8
 http://136.239.173.26:6610/001/2/ch00000090990000001146/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Bq0bLdlQQxjquEy7BUYBE%2BOytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001316&contentid=ch00000000000000001316&videoid=ch00000090990000001146&recommendtype=0&userid=1917967408923&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=4ADPFTEPDLCXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
 #EXTINF:-1 tvg-id="491027" tvg-name="Cinema One" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/6d/Cinema_One_2013_logo.svg" group-title="Movies",Cinema One
 http://136.158.97.2:6610/001/2/ch00000090990000001283/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Br2cQyuTRlDkHeiqeVidUqqytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001548&contentid=ch00000000000000001548&videoid=ch00000090990000001283&recommendtype=0&userid=1041236685526&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=852NEU8T1ZOXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+#EXTINF:-1 tvg-id="CinemaOne.ph@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Cinema_One_2013_logo.svg/960px-Cinema_One_2013_logo.svg.png" group-title="Movies",Cinema One (480p)
+https://streams.comclark.com/pknsd/cinemaone/playlist.m3u8
 #EXTINF:-1 tvg-id="CineMo.ph@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/41/Cinemologo.png" group-title="Movies",Cinemo
 https://streams.comclark.com/pknsd/cinemo/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/48/Cl_tv_36_ph.png/revision/latest/scale-to-width-down/1200?cb=20130823135759",CLTV 36 PH
@@ -81,6 +83,8 @@ https://amg00861-amg00861c10-rakuten-uk-3152.playouts.now.amagi.tv/playlist.m3u8
 https://foxkidstv.be:3369/stream/play.m3u8
 #EXTINF:-1 tvg-id="484097" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Jeepney_TV_logo.png/1920px-Jeepney_TV_logo.png?utm_source=wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail" group-title="General",Jeepney TV CH
 https://streams.comclark.com/pknsd/jeepney/playlist.m3u8
+#EXTINF:-1 tvg-id="KapamilyaChannel.ph@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Kapamilya_Channel_Logo_2020.svg/960px-Kapamilya_Channel_Logo_2020.svg.png" group-title="Entertainment",Kapamilya Channel HD (1080p)
+https://streams.comclark.com/pknhd/kapamilya_hd/playlist.m3u8
 #EXTINF:-1 tvg-id="KapatidTV5.ph@SD" tvg-logo="https://i.imgur.com/xb5lkwG.png" group-title="General",Kapatid TV 5 (480p) [Geo-blocked]
 https://thinkkast.dpdns.org/tkk-ph/i7/kapatid_hd/kapatid.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d3/Knowledge_Channel_logo.png?utm_source=wikimedia.org&utm_campaign=index&utm_content=original" group-title="Education",Knowledge Channel CH
@@ -97,6 +101,8 @@ https://streams.comclark.com/overlay/mindanow/playlist.m3u8
 https://moonbug-rokuus.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/MovieSphere_Gold_2025_logo.svg/1920px-MovieSphere_Gold_2025_logo.svg.png?utm_source=wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",MovieSphere CH
 https://moviesphereuk-samsunguk.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="Myx.ph@SD" tvg-logo="https://i.imgur.com/pbHuUuV.png" group-title="Music",Myx (480p)
+https://streams.comclark.com/pknsd/myx/playlist.m3u8
 #EXTINF:-1 tvg-name="NBA TV" group-title="Sports",NBA TV
 https://cdn1.ayitistream.com/NBATV/index.m3u8
 #EXTINF:-1 tvg-id="Net25.ph@SD" tvg-logo="https://i.imgur.com/pPPubX5.png" group-title="General",NET25 (480p)
@@ -105,12 +111,16 @@ https://streams.comclark.com/pknsd/net_25/playlist.m3u8
 https://jmp2.uk/plu-5ca673e0d0bd6c2689c94ce3.m3u8
 #EXTINF:-1 tvg-name="Nickelodeon USA" group-title="Kids",Nickelodeon USA
 http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
+#EXTINF:-1 tvg-id="OneMediaNetwork.ph@SD" tvg-logo="https://i.imgur.com/fyfZkKg.png" group-title="Entertainment",One Media Network (480p)
+https://streams.comclark.com/pknsd/onemedia/playlist.m3u8
 #EXTINF:-1 tvg-id="549364" tvg-name="One Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9c/One_Sports_logo.svg" group-title="Sports",One Sports
 http://136.239.158.18:6610/001/2/ch00000090990000001083/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BpiZhzOAmsfItUIS2UHXxD0ytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001173&contentid=ch00000000000000001173&videoid=ch00000090990000001083&recommendtype=0&userid=1797679327850&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=RCAJM4IFILAXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
 #EXTINF:-1,Outdoor Channel
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00718-outdoorchannela-outdoortvnz-samsungnz/playlist.m3u8
 #EXTINF:-1 tvg-id="PBO.ph@SD" tvg-logo="https://i.imgur.com/HZURi7d.png" group-title="Entertainment",PBO (480p)
 https://streams.comclark.com/pknsd/pbo/playlist.m3u8
+#EXTINF:-1 tvg-id="PremierFootball.ph@SD" tvg-logo="https://i.imgur.com/lKjXwtG.png" group-title="Sports",Premier Football (1080p)
+https://streams.comclark.com/pknhd/premier_football/playlist.m3u8
 #EXTINF:-1 tvg-id="PremierSports.ph@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Premier_sports_logo_2018.svg/1920px-Premier_sports_logo_2018.svg.png?utm_source=wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail" group-title="Sports",Premier Sports
 https://amg19223-amg19223c3-amgplt0351.playout.now3.amagi.tv/playlist/amg19223-amg19223c3-amgplt0351/playlist.m3u8
 #EXTINF:-1 tvg-id="PremierSports2.ph@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Premier_sports_logo_2018.svg/1920px-Premier_sports_logo_2018.svg.png?utm_source=wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail" group-title="Sports",Premier Sports 2
@@ -131,6 +141,14 @@ https://streams.comclark.com/pknsd/solar_sports/playlist.m3u8
 https://streams.comclark.com/pknsd/solar_flix/playlist.m3u8
 #EXTINF:-1,Tagalized Movie Channel
 http://136.239.159.20:6610/001/2/ch00000090990000001080/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BrHx%2Fyl86rMkFVqtHp1NtQIytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001153&contentid=ch00000000000000001153&videoid=ch00000090990000001080&recommendtype=0&userid=1123674387331&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=OWFM2G9EILPXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+#EXTINF:-1 tvg-id="TAPActionFlix.ph@SD" tvg-logo="https://i.imgur.com/45Y6iXq.png" group-title="Movies",Tap Action Flix (480p)
+https://streams.comclark.com/pknsd/tapactionflix/playlist.m3u8
+#EXTINF:-1 tvg-id="TAPEdge.ph@SD" tvg-logo="https://i.imgur.com/ljey69u.png" group-title="Sports",Tap Edge (480p)
+https://streams.comclark.com/pknsd/tapedge/playlist.m3u8
+#EXTINF:-1 tvg-id="TAPMovies.ph@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/06/TapMovies-ph.png" group-title="Movies",Tap Movies (480p)
+https://streams.comclark.com/pknsd/tapmovies/playlist.m3u8
+#EXTINF:-1 tvg-id="TAPTV.ph@SD" tvg-logo="https://i.imgur.com/1Fkh0Vx.png" group-title="Undefined",Tap TV (480p)
+https://streams.comclark.com/pknsd/taptv/playlist.m3u8
 #EXTINF:-1,Thrillers
 https://amc-rushbyamc-1-us.vizio.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="554194" tvg-logo="https://upload.wikimedia.org/wikipedia/en/c/c1/TV_MARIA_logo.png",TV Maria PH
