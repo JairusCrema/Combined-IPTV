@@ -26,10 +26,6 @@ jobs:
           import re
 
           files = ["harley.m3u", "iptvorg.m3u"]
-          urls = set()
-          names = set()
-
-          EPG_URL = "https://epg.pw/xmltv/epg_PH.xml"
 
           def score(extinf, url):
               s = 0
@@ -37,60 +33,33 @@ jobs:
               if url.lower().startswith("https://"):
                   s += 200
 
-              if "1080" in extinf.lower():
+              text = extinf.lower()
+
+              if "1080" in text:
                   s += 100
-              elif "720" in extinf.lower():
+              elif "720" in text:
                   s += 60
-              elif "480" in extinf.lower():
+              elif "480" in text:
                   s += 40
 
-              if "hevc" in extinf.lower():
+              if "hevc" in text:
                   s += 20
 
               return s
 
-          temp = []
-
-          for f in files:
-              with open(f, encoding="utf8", errors="ignore") as file:
-                  lines = file.readlines()
-
-              i = 0
-
-              while i < len(lines):
-                  if lines[i].startswith("#EXTINF"):
-                      ext = lines[i].strip()
-
-                      if i + 1 >= len(lines):
-                          break
-
-                      url = lines[i + 1].strip()
-
-                      if not url.startswith("http"):
-                          i += 2
-                          continue
-
-                      m = re.search(r',(.*)', ext)
-                      name = m.group(1).strip() if m else url
-
-                      temp.append({
-                          "name": name,
-                          "ext": ext,
-                          "url": url,
-                          "score": score(ext, url)
-                      })
-
-                      i += 2
-
-                  else:
-                      i += 1
-
-          temp.sort(key=lambda x: x["score"], reverse=True)
+          # -------------------------
+          # Load blocked channels
+          # -------------------------
 
           blocked = set()
 
           try:
-              with open("blocked.txt", encoding="utf8") as file:
+              with open(
+                  "blocked.txt",
+                  encoding="utf8",
+                  errors="ignore"
+              ) as file:
+
                   for line in file:
                       line = line.strip().lower()
 
@@ -100,34 +69,32 @@ jobs:
           except FileNotFoundError:
               pass
 
-          final = []
+          # -------------------------
+          # Read source playlists
+          # -------------------------
 
-          for c in temp:
-              lname = c["name"].lower()
+          channels = {}
 
-              if lname in blocked:
+          for filename in files:
+
+              try:
+                  with open(
+                      filename,
+                      encoding="utf8",
+                      errors="ignore"
+                  ) as file:
+
+                      lines = file.readlines()
+
+              except FileNotFoundError:
                   continue
-
-              if c["url"] in urls:
-                  continue
-
-              if lname in names:
-                  continue
-
-              urls.add(c["url"])
-              names.add(lname)
-
-              final.append(c)
-
-          # Add custom channels
-          try:
-              with open("custom.m3u", encoding="utf8", errors="ignore") as file:
-                  lines = file.readlines()
 
               i = 0
 
               while i < len(lines):
+
                   if lines[i].startswith("#EXTINF"):
+
                       ext = lines[i].strip()
 
                       if i + 1 >= len(lines):
@@ -139,23 +106,92 @@ jobs:
                           i += 2
                           continue
 
-                      m = re.search(r',(.*)', ext)
-                      name = m.group(1).strip() if m else url
+                      match = re.search(r",(.*)", ext)
+
+                      name = (
+                          match.group(1).strip()
+                          if match
+                          else url
+                      )
+
                       lname = name.lower()
 
                       if lname in blocked:
                           i += 2
                           continue
 
-                      if url not in urls and lname not in names:
-                          final.append({
-                              "name": name,
-                              "ext": ext,
-                              "url": url
-                          })
+                      channel = {
+                          "name": name,
+                          "ext": ext,
+                          "url": url,
+                          "score": score(ext, url)
+                      }
 
-                          urls.add(url)
-                          names.add(lname)
+                      # Keep the best source channel
+                      if (
+                          lname not in channels
+                          or channel["score"]
+                          > channels[lname]["score"]
+                      ):
+                          channels[lname] = channel
+
+                      i += 2
+
+                  else:
+                      i += 1
+
+          # -------------------------
+          # Load custom.m3u
+          # -------------------------
+
+          try:
+              with open(
+                  "custom.m3u",
+                  encoding="utf8",
+                  errors="ignore"
+              ) as file:
+
+                  lines = file.readlines()
+
+              i = 0
+
+              while i < len(lines):
+
+                  if lines[i].startswith("#EXTINF"):
+
+                      ext = lines[i].strip()
+
+                      if i + 1 >= len(lines):
+                          break
+
+                      url = lines[i + 1].strip()
+
+                      if not url.startswith("http"):
+                          i += 2
+                          continue
+
+                      match = re.search(r",(.*)", ext)
+
+                      name = (
+                          match.group(1).strip()
+                          if match
+                          else url
+                      )
+
+                      lname = name.lower()
+
+                      if lname in blocked:
+                          i += 2
+                          continue
+
+                      # Custom channel overrides
+                      # Harley/iptv-org channel
+                      channels[lname] = {
+                          "name": name,
+                          "ext": ext,
+                          "url": url,
+                          "score": 999999
+                      }
 
                       i += 2
 
@@ -165,21 +201,40 @@ jobs:
           except FileNotFoundError:
               pass
 
-          final.sort(key=lambda x: x["name"].lower())
+          # -------------------------
+          # Create final playlist
+          # -------------------------
 
-          # Write final playlist with EPG URL
-          with open("combined.m3u", "w", encoding="utf8") as out:
+          final = list(channels.values())
 
-              out.write(
-                  '#EXTM3U x-tvg-url="' + EPG_URL + '"\n'
-              )
+          final.sort(
+              key=lambda x: x["name"].lower()
+          )
 
-              for c in final:
-                  out.write(c["ext"].strip() + "\n")
-                  out.write(c["url"].strip() + "\n")
+          # -------------------------
+          # Write combined.m3u
+          # WITHOUT global EPG
+          # -------------------------
+
+          with open(
+              "combined.m3u",
+              "w",
+              encoding="utf8"
+          ) as out:
+
+              out.write("#EXTM3U\n")
+
+              for channel in final:
+
+                  out.write(
+                      channel["ext"].strip() + "\n"
+                  )
+
+                  out.write(
+                      channel["url"].strip() + "\n"
+                  )
 
           print("Generated combined.m3u")
-          print("EPG:", EPG_URL)
           print("Channels:", len(final))
 
           EOF
