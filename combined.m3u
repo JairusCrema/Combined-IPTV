@@ -57,6 +57,8 @@ https://cdn3.wowza.com/1/QmVNUVhTNTZSS3Uz/YWQ0aHpi/hls/live/playlist.m3u8
 https://cdn3.wowza.com/1/T2NXeHF6UGlGbHY3/WFluRldQ/hls/live/playlist.m3u8
 #EXTINF:-1 tvg-id="484103" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c0/GMA_Network_Logo_Vector.svg/1280px-GMA_Network_Logo_Vector.svg.png",GMA 7
 http://136.158.97.2:6610/001/2/ch00000090990000001093/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BoLvT86fM74ocVChyFS93HUytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001214&contentid=ch00000000000000001214&videoid=ch00000090990000001093&recommendtype=0&userid=1084724632836&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=FGE3OISG4KGXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+#EXTINF:-1 tvg-id="GoldenNationNetwork.ph@SD" tvg-logo="https://i.imgur.com/HtPjeiu.png" group-title="Entertainment;News",Golden Nation Network (480p)
+https://streams.comclark.com/pknsd/onemedia/playlist.m3u8
 #EXTINF:-1 tvg-id="484107" tvg-logo="https://upload.wikimedia.org/wikipedia/en/5/5a/GTV_Philippines_Logo.png" group-title="News",GTV
 https://streams.comclark.com/pknsd/gtv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUVoLThijL4DdjU66hKao80taSj7UWHAiGPBCMOMPOOw&s",Heart of Asia
@@ -83,7 +85,7 @@ https://streams.comclark.com/pknsd/jeepney/playlist.m3u8
 https://streams.comclark.com/pknhd/kapamilya_hd/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/xb5lkwG.png" group-title="General",Kapatid TV 5 (480p) [Geo-blocked]
 https://thinkkast.dpdns.org/tkk-ph/i7/kapatid_hd/kapatid.m3u8
-#EXTINF:-1 tvg-id="KnowledgeChannel.ph@SD" tvg-logo="https://i.imgur.com/YrmMWXD.png" group-title="Education",Knowledge Channel (480p)
+#EXTINF:-1 tvg-id="KnowledgeChannel.ph@SD" tvg-logo="https://i.imgur.com/YrmMWXD.png" group-title="Education",Knowledge Channel (480p) [Not 24/7]
 https://streams.comclark.com/pknsd/knowledge/playlist.m3u8
 #EXTINF:-1 tvg-id="KoolTV.ph@SD" tvg-logo="https://yt3.googleusercontent.com/opqPJfc0Ptd9ohl4R-2hPjaquIAdWuqvRb0T_LBCmfyGznIvfGN0HOlcWZk6Lj2jk11s2Zlk=s1200-c-k-c0x00ffffff-no-rj" group-title="Music",Kool TV (720p)
 https://twitch-m3u8.bastypro112.workers.dev/kooltvlive/index.m3u8
@@ -109,8 +111,6 @@ https://streams.comclark.com/pknsd/net_25/playlist.m3u8
 https://jmp2.uk/plu-5ca673e0d0bd6c2689c94ce3.m3u8
 #EXTINF:-1 tvg-name="Nickelodeon USA" group-title="Kids",Nickelodeon USA
 http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
-#EXTINF:-1 tvg-id="OneMediaNetwork.ph@SD" tvg-logo="https://i.imgur.com/fyfZkKg.png" group-title="Entertainment",One Media Network (480p)
-https://streams.comclark.com/pknsd/onemedia/playlist.m3u8
 #EXTINF:-1 tvg-id="549364" tvg-name="One Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9c/One_Sports_logo.svg" group-title="Sports",One Sports
 http://136.239.158.18:6610/001/2/ch00000090990000001083/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BpiZhzOAmsfItUIS2UHXxD0ytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001173&contentid=ch00000000000000001173&videoid=ch00000090990000001083&recommendtype=0&userid=1797679327850&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=RCAJM4IFILAXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
 #EXTINF:-1,Outdoor Channel
@@ -127,6 +127,8 @@ https://amg19223-amg19223c4-amgplt0351/playlist/amg19223-amg19223c4-amgplt0351/p
 https://streams.comclark.com/pknsd/ptv/playlist.m3u8
 #EXTINF:-1 tvg-id="RJDigiTV.ph@SD" tvg-logo="https://i.imgur.com/i0iZQ5G.png" group-title="Entertainment",RJTV 29 (480p) [Not 24/7]
 https://streams.comclark.com/pknsd/rjtv_29/playlist.m3u8
+#EXTINF:-1 tvg-id="RockofManilaTV.ph@SD" tvg-logo="https://i.imgur.com/Pg2jrLe.png" group-title="Music",Rock of Manila TV (480p) [Not 24/7]
+https://streams.comclark.com/pknsd/rock_tv_of_manila/playlist.m3u8
 #EXTINF:-1 tvg-id="300918" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/RPTV_%282024%29.svg/1920px-RPTV_%282024%29.svg.png?utm_source=wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail" group-title="General",RPTV CH
 https://streams.comclark.com/pknsd/rptv/playlist.m3u8
 #EXTINF:-1 tvg-id="RTMASEAN.my@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/RTM_Asean_%282024%29.svg/1920px-RTM_Asean_%282024%29.svg.png" group-title="News",RTM ASEAN CH
