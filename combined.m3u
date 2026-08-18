@@ -15,6 +15,8 @@ https://amdlive-ch03-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/pl
 https://thinkkast.dpdns.org/thinkkast/bbc_lstylehd/versiglia/index.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/62/BBC_News_2019.svg",BBC News Asia
 https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8
+#EXTINF:-1,BBC News Asia Pacific (720p)
+https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/62/BBC_News_2019.svg",BBC World News
 https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/BeIN_Sports_XTRA_1_logo.svg/1920px-BeIN_Sports_XTRA_1_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",Bein Sports xtra CH
@@ -73,8 +75,6 @@ https://streams.comclark.com/pknsd/ibc_13/playlist.m3u8
 https://stream-243529.castr.net/6842a712b68c56f675d988f1/live_b60a96e056fc11f084c05f5d0649296b/rewind-1800.m3u8
 #EXTINF:-1 tvg-id="INCTV.ph@SD" tvg-logo="https://i.imgur.com/JGSLqA6.png" group-title="Religious",INC TV (1080p)
 https://stream-243529.castr.net/6842a712b68c56f675d988f1/live_f5ac22b0566511f0805217b960326aaa/rewind-1800.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/INC_TV_New_Logo.png/1920px-INC_TV_New_Logo.png?utm_source=wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",INC TV CH
-http://136.239.159.18:6610/001/2/ch00000090990000001092/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BrC5ZD%2FYbS0KSGrFVJUNIMkytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001178&contentid=ch00000000000000001178&videoid=ch00000090990000001092&recommendtype=0&userid=1760058453659&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=HILNO5G9U9IXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
 #EXTINF:-1 tvg-id="INTRAVEL.nl@Philippines" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Intravel.png" group-title="Travel",InTravel (1080p)
 https://amg00861-amg00861c10-rakuten-uk-3152.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/88/TV_Japan_HD.png/revision/latest/scale-to-width-down/250?cb=20230919000810",Japanim TV CH
@@ -92,8 +92,6 @@ https://twitch-m3u8.bastypro112.workers.dev/kooltvlive/index.m3u8
 #EXTINF:-1 tvg-id="LightTV.ph@SD" tvg-logo="https://i.imgur.com/bsjhl6L.png" group-title="Religious",Light TV (480p) [Not 24/7]
 https://streams.comclark.com/pknsd/light_tv/playlist.m3u8
 #EXTINF:-1,Magic Kids (486p)
-https://magicstream.ddns.net/magicstream/stream.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/00/Magic_Kids_1995.png?utm_source=wikimedia.org&utm_campaign=index&utm_content=original",Magic Kids CH
 https://magicstream.ddns.net/magicstream/stream.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Mindanao_Media_Network.jpg/1920px-Mindanao_Media_Network.jpg?utm_source=wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",Mindanow Network TV CH
 https://streams.comclark.com/overlay/mindanow/playlist.m3u8
@@ -123,6 +121,8 @@ https://streams.comclark.com/pknhd/premier_football/playlist.m3u8
 https://amg19223-amg19223c3-amgplt0351.playout.now3.amagi.tv/playlist/amg19223-amg19223c3-amgplt0351/playlist.m3u8
 #EXTINF:-1 tvg-id="PremierSports2.ph@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Premier_sports_logo_2018.svg/1920px-Premier_sports_logo_2018.svg.png?utm_source=wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail" group-title="Sports",Premier Sports 2
 https://amg19223-amg19223c4-amgplt0351/playlist/amg19223-amg19223c4-amgplt0351/playlist.m3u8
+#EXTINF:-1 tvg-id="PremierSports2.ph@SD" tvg-logo="https://i.imgur.com/UQeXWd2.png" group-title="Sports",Premier Sports 2 (1080p)
+https://amg19223-amg19223c4-amgplt0351.playout.now3.amagi.tv/playlist/amg19223-amg19223c4-amgplt0351/playlist.m3u8
 #EXTINF:-1 tvg-id="536477" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/95/PTV_News_logo.jpg?utm_source=wikimedia.org&utm_campaign=index&utm_content=original" group-title="Undefined",PTV 4 CH
 https://streams.comclark.com/pknsd/ptv/playlist.m3u8
 #EXTINF:-1 tvg-id="RJDigiTV.ph@SD" tvg-logo="https://i.imgur.com/i0iZQ5G.png" group-title="Entertainment",RJTV 29 (480p) [Not 24/7]
