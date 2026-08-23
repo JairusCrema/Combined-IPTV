@@ -71,6 +71,8 @@ https://stream-243529.castr.net/6842a712b68c56f675d988f1/live_f5ac22b0566511f080
 https://amg00861-amg00861c10-rakuten-uk-3152.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/88/TV_Japan_HD.png/revision/latest/scale-to-width-down/250?cb=20230919000810",Japanim TV CH
 https://foxkidstv.be:3369/stream/play.m3u8
+#EXTINF:-1,Jeepney TV
+http://161.49.17.2:6610/001/2/ch00000090990000001250/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BpGbNnk2H5Bi8k4yR%2B9AHGFytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001546&contentid=ch00000000000000001546&videoid=ch00000090990000001250&recommendtype=0&userid=1870820485634&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=6T45HYQ6YE3XXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
 #EXTINF:-1 tvg-id="484097" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Jeepney_TV_logo.png/1920px-Jeepney_TV_logo.png?utm_source=wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail" group-title="General",Jeepney TV CH
 https://streams.comclark.com/pknsd/jeepney/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/xb5lkwG.png" group-title="General",Kapatid TV 5 (480p) [Geo-blocked]
